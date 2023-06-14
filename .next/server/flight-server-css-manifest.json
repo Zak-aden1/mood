@@ -1,0 +1,14 @@
+{
+  "cssImports": {
+    "/Users/zak/Code/projects/mood/app/layout.tsx": [
+      "/Users/zak/Code/projects/mood/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/zak/Code/projects/mood/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/zak/Code/projects/mood/app/page": [
+      "/Users/zak/Code/projects/mood/app/globals.css",
+      "/Users/zak/Code/projects/mood/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
