@@ -9,6 +9,14 @@
     "/Users/zak/Code/projects/mood/app/page": [
       "/Users/zak/Code/projects/mood/app/globals.css",
       "/Users/zak/Code/projects/mood/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/Users/zak/Code/projects/mood/app/sign-in/[[...sign-in]]/page": [
+      "/Users/zak/Code/projects/mood/app/globals.css",
+      "/Users/zak/Code/projects/mood/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/Users/zak/Code/projects/mood/app/sign-up/[[...sign-up]]/page": [
+      "/Users/zak/Code/projects/mood/app/globals.css",
+      "/Users/zak/Code/projects/mood/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   }
 }

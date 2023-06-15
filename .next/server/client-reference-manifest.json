@@ -175,6 +175,346 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "ClientClerkProvider": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
+        "name": "ClientClerkProvider",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "AuthenticateWithRedirectCallback": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "AuthenticateWithRedirectCallback",
+        "chunks": [],
+        "async": false
+      },
+      "ClerkLoaded": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "ClerkLoaded",
+        "chunks": [],
+        "async": false
+      },
+      "ClerkLoading": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "ClerkLoading",
+        "chunks": [],
+        "async": false
+      },
+      "MultisessionAppSupport": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "MultisessionAppSupport",
+        "chunks": [],
+        "async": false
+      },
+      "RedirectToCreateOrganization": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "RedirectToCreateOrganization",
+        "chunks": [],
+        "async": false
+      },
+      "RedirectToOrganizationProfile": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "RedirectToOrganizationProfile",
+        "chunks": [],
+        "async": false
+      },
+      "RedirectToSignIn": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "RedirectToSignIn",
+        "chunks": [],
+        "async": false
+      },
+      "RedirectToSignUp": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "RedirectToSignUp",
+        "chunks": [],
+        "async": false
+      },
+      "RedirectToUserProfile": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "RedirectToUserProfile",
+        "chunks": [],
+        "async": false
+      },
+      "SignedIn": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "SignedIn",
+        "chunks": [],
+        "async": false
+      },
+      "SignedOut": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+        "name": "SignedOut",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "MagicLinkErrorCode": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "MagicLinkErrorCode",
+        "chunks": [],
+        "async": false
+      },
+      "WithClerk": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "WithClerk",
+        "chunks": [],
+        "async": false
+      },
+      "WithSession": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "WithSession",
+        "chunks": [],
+        "async": false
+      },
+      "WithUser": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "WithUser",
+        "chunks": [],
+        "async": false
+      },
+      "isClerkAPIResponseError": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "isClerkAPIResponseError",
+        "chunks": [],
+        "async": false
+      },
+      "isKnownError": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "isKnownError",
+        "chunks": [],
+        "async": false
+      },
+      "isMagicLinkError": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "isMagicLinkError",
+        "chunks": [],
+        "async": false
+      },
+      "isMetamaskError": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "isMetamaskError",
+        "chunks": [],
+        "async": false
+      },
+      "useAuth": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useAuth",
+        "chunks": [],
+        "async": false
+      },
+      "useClerk": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useClerk",
+        "chunks": [],
+        "async": false
+      },
+      "useMagicLink": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useMagicLink",
+        "chunks": [],
+        "async": false
+      },
+      "useOrganization": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useOrganization",
+        "chunks": [],
+        "async": false
+      },
+      "useOrganizationList": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useOrganizationList",
+        "chunks": [],
+        "async": false
+      },
+      "useOrganizations": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useOrganizations",
+        "chunks": [],
+        "async": false
+      },
+      "useSession": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useSession",
+        "chunks": [],
+        "async": false
+      },
+      "useSessionList": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useSessionList",
+        "chunks": [],
+        "async": false
+      },
+      "useSignIn": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useSignIn",
+        "chunks": [],
+        "async": false
+      },
+      "useSignUp": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useSignUp",
+        "chunks": [],
+        "async": false
+      },
+      "useUser": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "useUser",
+        "chunks": [],
+        "async": false
+      },
+      "withClerk": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "withClerk",
+        "chunks": [],
+        "async": false
+      },
+      "withSession": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "withSession",
+        "chunks": [],
+        "async": false
+      },
+      "withUser": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+        "name": "withUser",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "CreateOrganization": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "CreateOrganization",
+        "chunks": [],
+        "async": false
+      },
+      "OrganizationProfile": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "OrganizationProfile",
+        "chunks": [],
+        "async": false
+      },
+      "OrganizationSwitcher": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "OrganizationSwitcher",
+        "chunks": [],
+        "async": false
+      },
+      "SignIn": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "SignIn",
+        "chunks": [],
+        "async": false
+      },
+      "SignInButton": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "SignInButton",
+        "chunks": [],
+        "async": false
+      },
+      "SignOutButton": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "SignOutButton",
+        "chunks": [],
+        "async": false
+      },
+      "SignUp": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "SignUp",
+        "chunks": [],
+        "async": false
+      },
+      "SignUpButton": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "SignUpButton",
+        "chunks": [],
+        "async": false
+      },
+      "UserButton": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "UserButton",
+        "chunks": [],
+        "async": false
+      },
+      "UserProfile": {
+        "id": "(sc_client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+        "name": "UserProfile",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -851,6 +1191,54 @@
       ],
       "async": false
     },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/zak/Code/projects/mood/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -864,6 +1252,422 @@
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
+      "name": "*",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js#": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
+      "name": "",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js#ClientClerkProvider": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
+      "name": "ClientClerkProvider",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "*",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#AuthenticateWithRedirectCallback": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "AuthenticateWithRedirectCallback",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#ClerkLoaded": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "ClerkLoaded",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#ClerkLoading": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "ClerkLoading",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#MultisessionAppSupport": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "MultisessionAppSupport",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#RedirectToCreateOrganization": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "RedirectToCreateOrganization",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#RedirectToOrganizationProfile": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "RedirectToOrganizationProfile",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#RedirectToSignIn": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "RedirectToSignIn",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#RedirectToSignUp": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "RedirectToSignUp",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#RedirectToUserProfile": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "RedirectToUserProfile",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#SignedIn": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "SignedIn",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js#SignedOut": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
+      "name": "SignedOut",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "*",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#MagicLinkErrorCode": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "MagicLinkErrorCode",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#WithClerk": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "WithClerk",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#WithSession": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "WithSession",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#WithUser": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "WithUser",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#isClerkAPIResponseError": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "isClerkAPIResponseError",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#isKnownError": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "isKnownError",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#isMagicLinkError": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "isMagicLinkError",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#isMetamaskError": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "isMetamaskError",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useAuth": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useAuth",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useClerk": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useClerk",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useMagicLink": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useMagicLink",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useOrganization": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useOrganization",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useOrganizationList": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useOrganizationList",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useOrganizations": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useOrganizations",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useSession": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useSession",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useSessionList": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useSessionList",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useSignIn": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useSignIn",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useSignUp": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useSignUp",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#useUser": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "useUser",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#withClerk": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "withClerk",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#withSession": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "withSession",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js#withUser": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
+      "name": "withUser",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "*",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#CreateOrganization": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "CreateOrganization",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#OrganizationProfile": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "OrganizationProfile",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#OrganizationSwitcher": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "OrganizationSwitcher",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignIn": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "SignIn",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignInButton": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "SignInButton",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignOutButton": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "SignOutButton",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignUp": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "SignUp",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#SignUpButton": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "SignUpButton",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#UserButton": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "UserButton",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js#UserProfile": {
+      "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
+      "name": "UserProfile",
+      "chunks": [
+        "app/sign-up/[[...sign-up]]/page:static/chunks/app/sign-up/[[...sign-up]]/page.js"
+      ],
+      "async": false
     }
   }
 }
