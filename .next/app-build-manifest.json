@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/(dashboard)/layout": [
+    "/(dashboard)/journal/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/layout.js"
+      "static/chunks/app/(dashboard)/journal/[id]/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(dashboard)/journal/page": [
+    "/(dashboard)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/journal/page.js"
+      "static/chunks/app/(dashboard)/layout.js"
     ]
   }
 }

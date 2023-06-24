@@ -1,3 +1,5 @@
 {
-  "/(dashboard)/journal/page": "app/(dashboard)/journal/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/journal/[id]/route": "app/api/journal/[id]/route.js",
+  "/(dashboard)/journal/[id]/page": "app/(dashboard)/journal/[id]/page.js"
 }
