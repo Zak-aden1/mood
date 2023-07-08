@@ -496,21 +496,41 @@
         "async": false
       }
     },
-    "(app-client)/./components/Editor.tsx": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./components/Editor.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./components/Editor.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/Editor.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/HistoryChart.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/HistoryChart.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/HistoryChart.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/HistoryChart.tsx",
         "name": "default",
         "chunks": [],
         "async": false
@@ -1195,7 +1215,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1203,7 +1223,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1211,7 +1231,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/app-router/client/ClerkProvider.js",
       "name": "ClientClerkProvider",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1219,7 +1239,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1227,7 +1247,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1235,7 +1255,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "AuthenticateWithRedirectCallback",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1243,7 +1263,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "ClerkLoaded",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1251,7 +1271,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "ClerkLoading",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1259,7 +1279,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "MultisessionAppSupport",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1267,7 +1287,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "RedirectToCreateOrganization",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1275,7 +1295,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "RedirectToOrganizationProfile",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1283,7 +1303,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "RedirectToSignIn",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1291,7 +1311,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "RedirectToSignUp",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1299,7 +1319,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "RedirectToUserProfile",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1307,7 +1327,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "SignedIn",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1315,7 +1335,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/controlComponents.js",
       "name": "SignedOut",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1323,7 +1343,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1331,7 +1351,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1339,7 +1359,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "MagicLinkErrorCode",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1347,7 +1367,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "WithClerk",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1355,7 +1375,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "WithSession",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1363,7 +1383,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "WithUser",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1371,7 +1391,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "isClerkAPIResponseError",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1379,7 +1399,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "isKnownError",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1387,7 +1407,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "isMagicLinkError",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1395,7 +1415,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "isMetamaskError",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1403,7 +1423,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useAuth",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1411,7 +1431,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useClerk",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1419,7 +1439,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useMagicLink",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1427,7 +1447,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useOrganization",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1435,7 +1455,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useOrganizationList",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1443,7 +1463,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useOrganizations",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1451,7 +1471,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useSession",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1459,7 +1479,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useSessionList",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1467,7 +1487,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useSignIn",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1475,7 +1495,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useSignUp",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1483,7 +1503,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "useUser",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1491,7 +1511,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "withClerk",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1499,7 +1519,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "withSession",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1507,7 +1527,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/hooks.js",
       "name": "withUser",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1515,7 +1535,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1523,7 +1543,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1531,7 +1551,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "CreateOrganization",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1539,7 +1559,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "OrganizationProfile",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1547,7 +1567,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "OrganizationSwitcher",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1555,7 +1575,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "SignIn",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1563,7 +1583,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "SignInButton",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1571,7 +1591,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "SignOutButton",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1579,7 +1599,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "SignUp",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1587,7 +1607,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "SignUpButton",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1595,7 +1615,7 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "UserButton",
       "chunks": [
-        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -1603,31 +1623,79 @@
       "id": "(app-client)/./node_modules/@clerk/nextjs/dist/esm/client-boundary/uiComponents.js",
       "name": "UserProfile",
       "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
         "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
       ],
       "async": false
     },
-    "/Users/zak/Code/projects/mood/components/Editor.tsx": {
-      "id": "(app-client)/./components/Editor.tsx",
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/journal/[id]/page:static/chunks/app/(dashboard)/journal/[id]/page.js"
+        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
       ],
       "async": false
     },
-    "/Users/zak/Code/projects/mood/components/Editor.tsx#": {
-      "id": "(app-client)/./components/Editor.tsx",
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/journal/[id]/page:static/chunks/app/(dashboard)/journal/[id]/page.js"
+        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
       ],
       "async": false
     },
-    "/Users/zak/Code/projects/mood/components/Editor.tsx#default": {
-      "id": "(app-client)/./components/Editor.tsx",
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/(dashboard)/journal/[id]/page:static/chunks/app/(dashboard)/journal/[id]/page.js"
+        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/layout:static/chunks/app/(dashboard)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/components/HistoryChart.tsx": {
+      "id": "(app-client)/./components/HistoryChart.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/history/page:static/chunks/app/(dashboard)/history/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/components/HistoryChart.tsx#": {
+      "id": "(app-client)/./components/HistoryChart.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/history/page:static/chunks/app/(dashboard)/history/page.js"
+      ],
+      "async": false
+    },
+    "/Users/zak/Code/projects/mood/components/HistoryChart.tsx#default": {
+      "id": "(app-client)/./components/HistoryChart.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/history/page:static/chunks/app/(dashboard)/history/page.js"
       ],
       "async": false
     },

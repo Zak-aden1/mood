@@ -4,10 +4,28 @@ import { updateEntry } from "@/utils/api"
 import { useState } from "react"
 import { useAutosave } from "react-autosave"
 
-const Editor = ({ entry }) => {
-  const [value, setvalue] = useState(entry.content)
-  const [isLoading, setIsLoading] = useState(false)
-  const [analysis, setAnalysis] = useState(entry.analysis)
+interface Content {
+  summary: string,
+  subject: string,
+  mood: string,
+  negative: boolean,
+  color: string,
+  id: string
+}
+
+interface Entry {
+  entry: {
+    id: string
+    content: string,
+    analysis: Content
+  }
+}
+
+const Editor: React.FC<Entry> = ({ entry }) => {
+  const [value, setvalue] = useState<string>(entry.content)
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [analysis, setAnalysis] = useState<Content>(entry.analysis)
+  console.log('entry', entry.analysis);
 
   const { color, mood, summary, subject, negative } = analysis
   const analysisData = [
@@ -22,24 +40,24 @@ const Editor = ({ entry }) => {
     onSave: async (_value) => {
       setIsLoading(true)
       const data = await updateEntry(entry.id, _value)
-      console.log('data', data);
-      
+
       setAnalysis(data.analysis)
-      
+
       setIsLoading(false)
     }
   })
-  
+
   return (
     <>
-    <div className="w-full h-full col-span-2">
-      {isLoading && <div>...loading</div>}
-      <textarea 
-        className="w-full h-full p-8 text-xl outline-none" 
-        value={value} 
-        onChange={e => setvalue(e.target.value)}></textarea>
-    </div>
-    <div className="col-span-1 border-l border-black/10">
+      <div className="w-full h-full col-span-2">
+        {isLoading && <div>...loading</div>}
+        <textarea 
+          className="w-full h-full p-8 text-xl outline-none" 
+          value={value} 
+          onChange={e => setvalue(e.target.value)}>
+        </textarea>
+      </div>
+      <div className="col-span-1 border-l border-black/10">
         <div className="px-6 py-10" style={{backgroundColor: color}}>
           <h2 className="text-white text-2xl">Analysis</h2>
         </div>
@@ -57,5 +75,5 @@ const Editor = ({ entry }) => {
     </>
   )
 }
-  
+
 export default Editor

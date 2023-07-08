@@ -16,6 +16,7 @@ const getEntry = async (id: string) => {
     }
   })
 
+  console.log('user ENTRY!!!!!!!', entry);
   return entry
 }
 
